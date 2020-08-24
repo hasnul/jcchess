@@ -327,7 +327,8 @@ class Gui:
         # main_vbox.pack_start(vbox2, False)
         # main_vbox.pack_start(eb_1, False)
         eb_1.add(vbox2)
-        eb_1.modify_bg(Gtk.StateType.NORMAL, Gdk.color_parse("#EDECEB"))##EDECEB
+        #eb_1.modify_bg(Gtk.StateType.NORMAL, Gdk.color_parse("#EDECEB"))##EDECEB
+        eb_1.modify_bg(Gtk.StateType.NORMAL, Gdk.color_parse("#0E1111"))
         # Create a MenuBar
         menubar = uimanager.get_widget("/MenuBar")
         vbox2.pack_start(menubar, False, True, 0)
